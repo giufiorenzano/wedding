@@ -64,6 +64,10 @@ section > span {
   text-align: justify;
 }
 
+#first-section #emoji {
+  font-size: 32px;
+}
+
 #second-section {
   display: flex;
   flex-direction: column;
@@ -146,8 +150,8 @@ td.price {
   margin: 16px;
 }
 
-#emoji {
-  font-size: 32px;
+#fourth-section > #emoji {
+  font-size: 16px;
 }
 
 @media (max-width: 700px) {
