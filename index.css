@@ -129,6 +129,10 @@ td.price {
   max-width: 800px;
 }
 
+#third-section > #small-subtitle {
+  margin-top: 12px;
+}
+
 #fourth-section {
   padding-top: 48px;
 
