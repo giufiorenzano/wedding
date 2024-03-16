@@ -10,21 +10,12 @@ body {
   padding: 56px;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-}
-
 h3 {
   font-size: 1.5rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 20px;
   color: black;
   font-weight: bold;
 }
@@ -34,8 +25,11 @@ a:hover {
 }
 
 section > span {
-  font-size: 20px;
   text-align: justify;
+}
+
+.text-medium {
+  font-size: 20px;
 }
 
 #first-section {
@@ -60,11 +54,10 @@ section > span {
 }
 
 #first-section > div > #paragraph {
-  font-size: 20px;
   text-align: justify;
 }
 
-#first-section #emoji {
+#first-section .emoji {
   font-size: 32px;
 }
 
@@ -87,10 +80,6 @@ section > span {
   padding: 16px;
 
   background-color: #f2ead6;
-}
-
-#second-section b {
-  font-size: 20px;
 }
 
 table {
@@ -154,7 +143,7 @@ td.price {
   margin: 16px;
 }
 
-#fourth-section > #emoji {
+#fourth-section > .emoji {
   font-size: 16px;
 }
 
